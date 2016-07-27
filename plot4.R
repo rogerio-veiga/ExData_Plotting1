@@ -37,7 +37,7 @@ pcFebruary2007$Time <- strptime(paste(pcFebruary2007$Date, pcFebruary2007$Time),
 ## Plot 4
 Sys.setlocale("LC_TIME", "English")
 png(filename = "plot4.png", width = 480, height = 480)
-par(mfrow = c(2, 2), mar = c(3, 3, 1, 1))
+par(mfrow = c(2, 2), mar = c(4, 4, 4, 4))
 ##Top left
 plot(pcFebruary2007$Time, pcFebruary2007$Global_active_power, type = "l", ylab="Global Active Power")
 
